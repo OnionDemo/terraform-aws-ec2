@@ -2,7 +2,7 @@ provider "aws" {
   region = "us-east-2"
 }
 
-# Retrieve the proper machine image for EC2 instance
+# Retrieve the proper machine image for EC2 instance //
 data "aws_ami" "amzn-linux-2023-ami" {
   most_recent = true
   owners      = ["amazon"]
